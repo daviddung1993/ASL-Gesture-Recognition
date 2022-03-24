@@ -1,7 +1,7 @@
 # ASL-Gesture-Recognition
 
-This repository shows the project that I have done in the Intelligent Interactive Systems course at the Uppsala University. 
-The project is about implementing a Convolutional Neural Network, that identifies gestures according to American Sign Languague(ASL) standards.
+This repository shows the project that I have done in the Intelligent Interactive Systems course at Uppsala University. 
+The project is about implementing a Convolutional Neural Network, that identifies gestures according to American Sign Language(ASL) standards.
 
 The following gestures were implemented:
 
@@ -13,16 +13,20 @@ Each student had to upload a video with hand gestures for each ASL letter, which
 
 You can try out the model by running the demo notebook.
 This would be an example output result:
-https://user-images.githubusercontent.com/38215056/160008232-5681042a-f4ec-4fdd-bf75-1a3328c2f10a.mp4
+
+
+https://user-images.githubusercontent.com/38215056/160009934-ba08d09e-bab0-4de6-8908-d15fd688d4c3.mov
+
+
 
 # Process
 
 - All of the videos were first split into frames
-- Mediapipe was then use to detect the hand coordinates and crop the images
+- Mediapipe was then used to detect the hand coordinates and crop the images
 - Due to computational limitations, the images were then compressed to 32x32
-- Video 1 to 24 were the training set and video 25-29 were the test set
-- Before feeding it to the CNN, following data augmentation like flipping or a 5% tilt was applied
-- The overall accuracy of the model were ~83%
+- Videos 1-24 were the training set and video 25-29 were the test set
+- Before feeding it to the CNN, data augmentation like flipping or 5% tilting was applied
+- The overall accuracy of the model was ~83%
 
 
 
