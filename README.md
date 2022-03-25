@@ -12,7 +12,7 @@ Each student had to upload a video with hand gestures for each ASL letter, which
 # Live demo
 
 You can try out the model by running the demo notebook.
-This would be an example output result:
+This is an example:
 
 
 https://user-images.githubusercontent.com/38215056/160009934-ba08d09e-bab0-4de6-8908-d15fd688d4c3.mov
