@@ -26,7 +26,7 @@ https://user-images.githubusercontent.com/38215056/160009934-ba08d09e-bab0-4de6-
 - Due to computational limitations, the images were then compressed to 32x32
 - Videos 1-24 were the training set and video 25-29 were the test set
 - Before feeding it to the CNN, data augmentation like flipping or 5% tilting was applied
-- The overall accuracy of the model was ~83%
+- The overall accuracy of the model is ~83%
 
 
 
